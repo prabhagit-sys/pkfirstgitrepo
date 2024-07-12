@@ -5,3 +5,5 @@ resource "aws_instance" "web" {
     command = "echo The server's IP address is ${self.private_ip}"
   }
 }
+
+Test 1
